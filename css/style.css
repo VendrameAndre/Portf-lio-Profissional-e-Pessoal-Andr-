@@ -1,0 +1,83 @@
+body{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+.centroprincipal{
+    text-align: center;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.topo a:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.topo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.rodape{
+    position: fixed; 
+    bottom: 0; 
+    text-align: center; 
+    padding: 10px;
+    font-style:century;
+    font-size: larger;
+}
+
+.centro{
+    text-align:justify;
+}
+
+.centro p{
+    font-style: arial;
+    font-size: larger;
+}
+
+td, th{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 50px;
+    border-spacing: 0;
+}
+
+.relatorio{
+    padding: 10px;
+}
+
+.relatorio tr{
+    color: white;
+}
+
+td:hover{
+    background-color: black;
+    text-decoration: none;
+}
